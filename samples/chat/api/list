@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Lists the your inbox
+
+echo '{"method": "list"}' | keybase chat api | jq .
+
+
